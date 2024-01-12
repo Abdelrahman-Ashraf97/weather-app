@@ -1,0 +1,233 @@
+/* ==========================  start global proerties =========================== */
+
+*{
+    font-family: 'Roboto', sans-serif;
+ 
+
+}
+body{
+    background-color: #1E202B !important;
+}
+/* ==========================  End global proerties =========================== */
+
+/* ========================== Start Nav Bar =========================== */
+
+
+nav{
+    background-color:#1E202B !important;
+    padding-block: 50px !important;
+}
+.navbar-brand{
+    font-size: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+}
+small{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #bfc1c8;
+}
+nav ul li {
+    
+   margin-inline: 10px !important;
+   
+    
+}
+ nav ul li a{
+    padding: 0px 30px !important;
+    color:white !important ;
+    
+    
+}
+nav ul li .active ,.nav-link:hover {
+    outline: #1779D8 2px solid;
+    border-radius: 100px;
+    color:#1779D8 !important;
+    
+ 
+}
+nav div div  img{
+    width:40% !important;
+
+}
+/* ========================== End Nav Bar =========================== */
+
+/* ========================== Start header section  =========================== */
+header{
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.195), rgba(0, 0, 0, 0.195)) , no-repeat url(../images/banner.png)  ;
+    
+    background-repeat: no-repeat;
+    
+    padding-bottom: 80px;
+    
+}
+ input{
+    border: none !important;
+    padding-block: 15px !important  ;
+    color:  white !important;
+    padding-left: 10px !important;
+   
+
+
+}
+ input:focus{
+    box-shadow: none !important;
+    
+}
+ input::placeholder{
+    color: #757575 !important;
+    
+}
+ button{
+    position: absolute;
+   
+    right: 5px;
+    height: calc(100% - 2*5px);
+    width: 100px !important;
+    background-color: #009AD8 !important;
+    border: none !important;
+}
+.weather-state{
+    padding-block:10px
+}
+.weather-state img{
+    width: 30%;
+}
+.weather-state span{
+    font-size: 14px;
+}
+  .col-md-4 .custom{
+    color:RGB(0, 154, 216);
+    font-size: 14px;
+    
+}
+.t-deg{
+    line-height: 135 px;
+    font-size: 70px;
+    font-weight: 700;
+}
+header .day-time{
+    width: 25%;
+    margin-left: 40px;
+}
+header .head-top span, .data .city{
+    color: RGB(191, 193, 200)
+    ;
+}
+.head-top{
+    background-color: #2D303D;
+    padding: 5px;
+    
+}
+.data{
+    background-color: #323544;
+    padding-inline: 10px;
+    padding-top: 20px;
+    height: 100%;
+    
+    
+}
+ .row {
+    
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+ }
+ .temp{
+    padding-block: 10px;
+ }
+ .row .col-md-4:nth-of-type(2) .head-top {
+    background-color: #222530;
+    padding-inline: 10px;
+   
+   
+ }
+ .row .col-md-4:nth-of-type(2) .data{
+    background-color: #262936;
+ }
+ .next-dayes-state{
+    margin-top: 5%;
+    width: 15%;
+ 
+ }
+ .max-deg-temp{
+    margin-top: 20px;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+ }
+  .min-deg-temp{
+    color: RGB(191,193,200) !important;
+    font-size: 16 px !important;
+    line-height: 26px !important;
+    font-weight:300  !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 10px !important;
+ }
+ 
+
+
+
+
+/* ========================== End header section  =========================== */
+
+/* ========================== Start footer section  =========================== */
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer .social-links a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color:#181A23 ;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5px;
+    color: #009AD8;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s;
+    
+
+}
+footer .social-links a:hover{
+    color: white;
+    background-color:#009AD8;
+
+}
+footer p{
+    margin-top: 30px;
+    color:RGB(191, 193, 200,0.5);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* ========================== End footer section  =========================== */
+
+
+
+
+
+
+
+
